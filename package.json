@@ -11,7 +11,8 @@
   },
   "scripts": {
     "cy:open": "cypress open",
-    "cy:run": "cypress run"
+    "cy:run": "cypress run",
+    "cy:dashboard": "cypress run --record --parallel"
   },
   "devDependencies": {
     "cypress": "^15.19.0"
