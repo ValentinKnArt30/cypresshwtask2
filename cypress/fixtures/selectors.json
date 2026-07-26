@@ -1,0 +1,93 @@
+{
+  "main": {
+    "movie": ".movie",
+    "movieTitle": ".movie__title",
+    "hallTitle": ".movie-seances__hall-title",
+    "session": ".movie-seances__time",
+    "availableSession": ".movie-seances__time:not(.acceptin-button-disabled)",
+    "day": ".page-nav__day"
+  },
+
+  "login": {
+    "email": "input[name='email']",
+    "password": "input[name='password']",
+    "submit": ".login__button",
+    "error": "body"
+  },
+
+  "booking": {
+    "title": ".buying__info-title",
+    "startTime": ".buying__info-start",
+    "hall": ".buying__info-hall",
+
+    "scheme": ".buying-scheme",
+
+    "seat": ".buying-scheme__chair:not(.buying-scheme__chair_disabled):not(.buying-scheme__chair_taken):not(.buying-scheme__chair_selected)",
+    "selectedSeat": ".buying-scheme__chair_selected",
+
+    "standardSeat": ".buying-scheme__chair_standart",
+    "vipSeat": ".buying-scheme__chair_vip",
+    "disabledSeat": ".buying-scheme__chair_disabled",
+    "takenSeat": ".buying-scheme__chair_taken",
+
+    "bookButton": ".buying .acceptin-button"
+  },
+
+  "ticket": {
+    "title": ".ticket__info:nth-of-type(1) .ticket__details",
+    "chairs": ".ticket__info:nth-of-type(2) .ticket__details",
+    "hall": ".ticket__info:nth-of-type(3) .ticket__details",
+    "date": ".ticket__info:nth-of-type(4) .ticket__details",
+    "start": ".ticket__info:nth-of-type(5) .ticket__details",
+    "cost": ".ticket__info:nth-of-type(6) .ticket__details",
+
+    "confirmButton": ".ticket .acceptin-button"
+  },
+
+  "admin": {
+    "section": ".conf-step",
+    "sectionHeader": ".conf-step__header",
+    "sectionWrapper": ".conf-step__wrapper",
+    "logoutButton": ".logout",
+
+    "hallControl": "#hall-control",
+    "hallList": "#hall-control .conf-step__list li",
+    "addHall": ".button__add-hall",
+    "deleteHall": "#hall-control .conf-step__list .conf-step__button-trash",
+
+    "hallConfiguration": "#hall-configuration",
+    "hallRadio": "#hall-configuration .conf-step__radio",
+    "hallName": "#hall-configuration .conf-step__selector",
+    "rowsCount": "#input_rows_count",
+    "placesCount": "#input_places_count",
+    "standardChair": "#hall-configuration .conf-step__chair_standart",
+    "vipChair": "#hall-configuration .conf-step__chair_vip",
+    "disabledChair": "#hall-configuration .conf-step__chair_disabled",
+    "saveHallConfiguration": "#hall-configuration input[value='Сохранить']",
+
+    "priceConfiguration": "#price-configuration",
+    "priceHallRadio": "#price-configuration input[name='prices-hall']",
+    "priceHallName": "#price-configuration .conf-step__selector",
+    "standardPrice": "#input_price_standart",
+    "vipPrice": "#input_price_vip",
+    "savePriceConfiguration": "#price-configuration input[value='Сохранить']",
+
+    "gridSession": "#grid-session",
+    "addMovie": ".button__add-movie",
+    "movie": "#grid-session .conf-step__movie",
+    "movieTitle": "#grid-session .conf-step__movie-title",
+    "movieDuration": "#grid-session .conf-step__movie-duration",
+    "deleteMovie": "#grid-session .conf-step__movie .conf-step__button-trash",
+
+    "seanceHall": "#grid-session .conf-step__seances-hall",
+    "hallTitle": "#grid-session .conf-step__seances-title",
+    "seance": "#grid-session .conf-step__seances-movie",
+    "seanceMovieTitle": "#grid-session .conf-step__seances-movie-title",
+    "seanceTime": "#grid-session .conf-step__seances-movie-start",
+
+    "sales": "#start-sales",
+    "salesHallRadio": "#start-sales input[name='sales-hall']",
+    "salesHallName": "#start-sales .conf-step__selector",
+    "salesButton": "#start-sales button.conf-step__button-accent"
+  }
+}

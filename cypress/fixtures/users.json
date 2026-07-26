@@ -1,0 +1,10 @@
+{
+  "happyauthpass": {
+    "login": "qamid@qamid.ru",
+    "password": "qamid"
+  },
+  "sadauthpass": {
+    "login": "admin",
+    "password": "wrongpassword"
+  }
+}
